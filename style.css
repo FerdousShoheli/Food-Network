@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+#skip{
+    color: orange;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.link-button{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-image:linear-gradient(orange, tomato) ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+   
+}
