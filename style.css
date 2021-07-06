@@ -22,7 +22,6 @@ p{
     color: white;
     padding: 10px 20px;
     border-radius: 50px;
-    box-shadow: 10px 10px white;
     
    }
 .first-section{
@@ -48,14 +47,24 @@ p{
     text-align:center
 }
 .third-half{
-    width: 2%;
+    width: 60%;
 
 }
+.third-half img{
+    width: 200px;
+}
 .shadow{
-    width: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 10px 10px 10px grey;
+  width: 360px;
+  border-radius: 10px;
+  padding: 10px 10px 200px 2px;
+  margin-left: 90px;
+  margin-right: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.shadow img{
+    width:70%;
+    padding-left: 50px;
+    border-radius: 10px;
 }
 footer{
     text-align: center;
@@ -66,6 +75,11 @@ footer{
 #black{
     color:grey;
 }
+.flexible p{
+    text-align:left;
+
+}
+
 
      
 
