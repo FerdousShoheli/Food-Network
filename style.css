@@ -11,6 +11,10 @@ span{
 p{
     font-size: 15px;
 }
+.flexible{
+    display:flex;
+    margin-bottom:100px;
+}
 .anchor-button{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -18,34 +22,50 @@ p{
     color: white;
     padding: 10px 20px;
     border-radius: 50px;
+    box-shadow: 10px 10px white;
     
    }
-.first-half{
-    float:left;
-    width: 50%;
-}
 .first-section{
-    padding: 50px 10px 50px 50px;
-    margin: 20px;
+     margin:70px;
 }
-.first-half img{
-    width:65%;
-    margin-left:100px; 
-}
-.second-half{
+.first-half{
+    width: 50%;
     float:left;
-    width: 40%;
-    margin-left: 50px;
-    margin-right: 50px;
+}
+
+.first-half img{
+    width:50%;
+    margin-left:150px; 
 }
 .second-section{
-    background-image: url("Background_1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-
+    background-image: url("Background/Frame\ 58.jpg");
+    background-position:left;
+}
+.third-section h2{
+    text-align:center
+}
+.third-section p{
+    text-align:center
+}
+.third-half{
+    width: 2%;
 
 }
-.second-half img{
-    width:60%;
-    margin-left: 150px;
+.shadow{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 10px grey;
 }
+footer{
+    text-align: center;
+    background-color:black;
+    color:white;
+
+}
+#black{
+    color:grey;
+}
+
+     
+
